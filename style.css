@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	margin-left: 0;
+	padding: 0;
+}
+
+
+h1, h2, h3 {
+    margin-top: .5rem;
+    margin-left: 2rem;
+    font-family: "Verdana";
+}
+
+h1 {
+	margin-bottom: .5rem;
+}
+
+
+h2{
+	font-size: 20px;
+}
+
+h3 {
+	color: dimgrey;
+	font-family: "georgia", sans-serif;
+	font-size: 16px;
+}
+
+
+
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+p {
+	font-family: "Georgia", serif;
+	    margin-left: 2rem;
+}
+
+ 
+ul {
+	list-style-type: none;
+	margin-left: 2rem;
+	padding: 0;
+	color: hotpink;
+}
+
+
+/* 
+a {
+	color: hotpink;
+	font-family: "verdana";
+	font-size: 16pt; 
+}
+
+a: visited {
+
+	color: hotpink;
+
+}
+
+*/
+
+img {
+	margin-top: 3rem;
+}
+
+
+.name {
+	color: black;
+	font-size: 25px;
+    margin-top: 1rem;
+    font-family: "Verdana";
+    text-decoration: none;
+}
+
+/* OLD ^^^^ DONT DELETE (YET)
+
+
+/* navbar gotten from https://www.w3schools.com/howto/howto_css_bottom_nav.asp */
+
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 150%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  font-family: "Georgia", serif;
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 2rem;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  border-radius: 8px
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #04AA6D;
+  color: hotpink;
+}
+
+
+hr {
+    position: fixed;
+    left: -30px;
+    right: 40px;
+    width: calc(100% + 30px);
+    border: 1px solid black;
+    clear: both;
+}
+
+
+.bigname {
+	font-size: 100px;
+	margin-left: 2rem;
+	padding-top: 10rem;
+	font-weight: bold;
+	font-family: "Verdana", sans-serif;
+}
+
+
+.aboutparagraph {
+	padding-left: 20rem;
+	padding-top: 27rem;
+	margin-right: 5rem;
+}
+
+
+
+.textbox {
+	background-color: aliceblue;
+  width: 300px;
+  border: 2px solid black;
+  padding: 20px;
+  padding-bottom: 1000px;
+  padding-left: 5px;
+  margin-top: 0px;  
+  margin-bottom: -800px;
+  position: auto;
+  float:right;
+}
+
+
+.textboxtext {
+	padding-top: 20px;
+}
+
+
+
+/* in class 2 link types start here 
+
+.orange-one {
+	color: orange;
+	background-color: navy;
+	border-radius: 10px;
+}
+
+.pink-two {
+	color: hotpink;
+	background-color: black;
+	border-radius: 10px;
+	transition: 2s;
+	transition-delay: 1s;
+}
+*/
