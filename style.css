@@ -1,187 +1,192 @@
 * {
-    margin: 0;
-    margin-left: 0;
-    padding: 0;
+  margin: 0;
+  margin-left: 0;
+  padding: 0;
 }
 
 h1,
 h2,
 h3 {
-    margin-top: 0.5rem;
-    margin-left: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
 }
 
 h1 {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: purple;
 }
 
 h2 {
-    font-size: 20px;
-    font-family: "VG5000-Regular", sans-serif;
+  font-size: 20px;
+  font-family: "VG5000-Regular", sans-serif;
 }
 
 h3 {
-    color: dimgrey;
-    font-family: "Georgia", serif;
-    font-size: 16px;
+  color: dimgrey;
+  font-family: "Georgia", serif;
+  font-size: 16px;
 }
 
 p {
-    font-family: "Georgia", serif;
-    margin-left: 2rem;
+  font-family: "Georgia", serif;
+  margin-left: 2rem;
 }
 
-.imageone {
-    margin-top: 6rem;
-    width: 50%;
+VG5000 by Justin Bihan. Distributed by velvetyne.fr. @font-face {
+  font-family: "VG5000-Regular";
+  src: url("VG5000-Regular.woff2") format("woff2"),
+    url("VG5000-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 /* navbar gotten from https://www.w3schools.com/howto/howto_css_bottom_nav.asp */
 .navbar {
-    background-color: lavender;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 150%;
+  background-color: hotpink;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 150%;
 }
 .navbar a {
-    font-family: "Georgia", serif;
-    float: left;
-    display: block;
-    color: black;
-    text-align: left;
-    padding: 14px 2rem;
-    text-decoration: none;
-    font-size: 17px;
+  font-family: "Georgia", serif;
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 2rem;
+  text-decoration: none;
+  font-size: 17px;
 }
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.navbar a.active {
-    background-color: #04aa6d;
-    color: hotpink;
+  background-color: lightpink;
+  color: black;
 }
 
 .navbartwo {
-    background-color: white;
-    overflow: hidden;
-    top: 0;
-    position: fixed;
-    float: top;
-    width: 150%;
+  background-color: white;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  float: top;
+  width: 150%;
 }
 .navbartwo a:hover {
-    color: purple;
+  color: purple;
 }
 .navbartwo a {
-    font-family: "VG5000-Regular", sans-serif;
-    display: block;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    font-size: 1rem;
+  font-family: "VG5000-Regular", sans-serif;
+  display: block;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1rem;
 }
-
 hr {
-    position: fixed;
-    left: -2rem;
-    right: 2.5rem;
-    width: calc(100% + 2rem);
-    border: 0.07rem solid black;
-    clear: both;
+  position: fixed;
+  left: -2rem;
+  right: 2.5rem;
+  width: calc(100% + 2rem);
+  border: 0.07rem solid black;
+  clear: both;
 }
 
-
-/* About me page */
-.bigname {
-    font-size: 6rem;
-    color: black;
-    text-decoration: none;
-    font-family: "VG5000-Regular", sans-serif;
-    padding-top:15%;
-    padding-left: 5%;
- .bigname a {
- 	text-decoration: none;
- 	color: black;
- }
-}
-.aboutparagraph {
-    padding-left: 15rem;
-    padding-top: 2rem;
-    max-width: 20%;
-    text-decoration: none;
-}
-
-
-
-/* Project page information textbox  */
+/* Project page information textbox */
 .textbox {
-    background-color: lavender;
-    width: 25%;
-    height: 100%;
-    max-width: 20rem;
-    border: 0.14rem solid black;
-    padding: 2rem;
-    padding-bottom: 100%;
-    padding-left: 1rem;
-    position: fixed;
-    right: 0;
-    margin-top: 2.8rem;
+  background-color: lavender;
+  width: 25%;
+  height: 100%;
+  max-width: 20rem;
+  border: 0.14rem solid black;
+  padding: 2rem;
+  padding-bottom: 100%;
+  padding-left: 1rem;
+  position: fixed;
+  right: 0;
+  margin-top: 2.8rem;
 }
 .textboxbody {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
+@media (max-width: 800px){
+  .textbox {
+    width: 80vw;
+    max-width: 80vw;
+    height: 1vh;
+    margin-bottom: 2rem;
+    padding-bottom: 11rem;
+    padding-right: 25rem;
+    left: 0;
+    bottom: 0;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;    
+  }
+}
 
 /* Contact Page Controls */
 .contactheader {
-    line-height: 100%;
-    font-size: 4rem;
-    min-width: 15rem;
-    max-width: 30rem;
+  line-height: 100%;
+  font-size: 4rem;
+  min-width: 15rem;
+  max-width: 30rem;
 }
 .contactbody {
-    padding-top: 1.5rem;
-    min-width: 15rem;
-    max-width: 20rem;
+  padding-top: 1.5rem;
+  min-width: 15rem;
+  max-width: 20rem;
 }
 button {
-    background-color: purple;
-    width: 10rem;
-    border: none;
-    margin: 0.5rem;
-    color: white;
-    border-radius: 1.3rem;
-    padding: 0.8rem 1.2rem;
-    text-align: center;
-    text-decoration: none;
-    font-family: "VG5000-Regular", sans-serif;
-    font-size: 1.8rem;
+  background-color: purple;
+  width: 10rem;
+  border: none;
+  margin: 0.5rem;
+  color: white;
+  border-radius: 1.3rem;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  font-family: "VG5000-Regular", sans-serif;
+  font-size: 1.8rem;
 }
 button:hover {
-    width: 10rem;
-    background-color: white;
-    border: 0.14rem solid black;
-    color: black;
-    padding: 0.8rem 1.2rem;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.8rem;
-    transition-duration: 0.4s;
+  width: 10rem;
+  background-color: white;
+  border: 0.14rem solid black;
+  color: black;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition-duration: 0.4s;
 }
 .buttoncontainer {
-    justify-content: center;
+  justify-content: center;
+  text-decoration: none;
 }
 .parent {
   margin-top: 10rem;
 }
 .childone {
-	display: inline-block;
+  display: inline-block;
   vertical-align: text-bottom;
 }
 .childtwo {
@@ -191,75 +196,104 @@ button:hover {
   padding-top: 8.5rem;
 }
 
-
+/* Index Image Controls */
 .homeimg {
-    -webkit-filter: grayscale(1) invert(1);
-    filter: grayscale(1) invert(1);
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
 }
 .homeimg:hover {
-    filter: none;
-    -webkit-filter: grayscale;
+  filter: none;
+  -webkit-filter: grayscale;
 }
 
+
+/* Index & Project Scroll Controls */
 .scroll-master {
-	background-color: red;
-	margin-top: 7%;  
-	float: left;
+  margin-top: 7%;
+  float: left;
 }
 .scroll-container {
   background-color: white;
   overflow-x: auto;
   white-space: nowrap;
-  padding-left: 2rem;
-  padding-right: 2rem;
   float: left;
+  margin-left: 1rem;
 }
 .scroll-container img {
-  padding: .5rem;
+  padding: 0.5rem;
   width: 35%;
-  height:auto;
+  height: auto;
 }
 
-.scroll-masterabout {
-	background-color: red;
-	margin-top: 7%;  
-	float: left;
-	z-index: -1;
+@media (max-width: 800px){
+  .scroll-master{
+    margin-top: 6rem;
+    width: 100vw;
+  }
+  .scroll-container {
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 80vh;
+      justify-content: center;
+      margin-left: 1rem;
+    }
+    .scroll-container img {
+      display: flex;
+      width: 90vw;
+    }
+  }
+
+/* About me page controls */
+.split {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-wrap: wrap;
 }
-.scroll-containerabout {
-  background-color: white;
-  overflow-x: auto;
-  white-space: nowrap;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  float: left;	
+.cover {
+  width: 30%;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.scroll-containerabout img {
-  padding: .5rem;
-  padding-top: 3rem;
-  width: 30%;	
-  height:auto;
+.content {
+  width: 70%;
+  padding-bottom: 2vw;
+}
+.bigname {
+  font-size: 8vw;
+  font-family: "VG5000-Regular", sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+.img-container {
+  display: flex;
+  gap: 2vw;
+  padding-left: 2vw;
+  padding-top: 18vh;
+  align-items: end;
+  margin-bottom: 16px;
+}
+.about-img {
+  width: 50%;
+  aspect-ratio: 1/1;
 }
 
-
-/*
-downloaded .woffs from: https://abcdinamo.com/ 
-@font-face {
-    font-family: 'ABCCamera-Black-Trial';
-        src: url('fonts/ABCCamera-Black-Trial.woff2') format('woff2'),
-         url('fonts/ABCCamera-Black-Trial.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+@media (max-width: 800px){
+  .cover, .content {
+    width: 100%;
+    height: 20vh;
+  }
+  .content {
+  margin-bottom: 50vh;
+  z-index: 1;
+  padding-right: .8rem;
+  padding: none;
 }
-*/
-
-VG5000 by Justin Bihan. Distributed by velvetyne.fr. 
-@font-face {
-	font-family: 'VG5000-Regular';
-	    src:  url('VG5000-Regular.woff2') format('woff2'),
-         	  url('VG5000-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.img-container {
+  padding-top: 0;
+  }
 }
-
-
