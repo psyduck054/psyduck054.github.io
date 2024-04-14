@@ -319,6 +319,10 @@ body {
   padding-right: .8rem;
   padding: none;
 }
+.about-img {
+  width: 30%;
+  aspect-ratio: 1/1;
+}
 .img-container {
   padding-top: 0;
   }
