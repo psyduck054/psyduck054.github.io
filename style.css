@@ -157,7 +157,7 @@ hr {
     margin-left: -2rem;
     bottom: 0;
     .textboxbody {
-    padding-top: .1rem;
+    padding-top: 0;
 }
   }
   h2 {
