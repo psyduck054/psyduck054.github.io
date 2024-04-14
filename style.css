@@ -302,6 +302,9 @@ body {
   width: 50%;
   aspect-ratio: 1/1;
 }
+.about-paragraph {
+  padding-right: 30%;
+}
 
 @media (max-width: 768px){
   .cover, .content {
@@ -317,4 +320,7 @@ body {
 .img-container {
   padding-top: 0;
   }
+  .about-paragraph {
+  padding-right: 0%;
+}
 }
