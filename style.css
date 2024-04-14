@@ -87,6 +87,13 @@ ABCSyntMono-Regular-Trial. By ABC Dinamo @font-face {
   transition-duration: 0.4s;
 
 }
+@media (max-width: 768px){
+  .navbar a {
+    font-size: 12px;
+    padding: 10px 2rem;
+  }
+}
+
 
 .navbartwo {
   background-color: whitesmoke;
