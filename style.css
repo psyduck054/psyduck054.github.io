@@ -260,13 +260,13 @@ button:hover {
 /* Index & Project Scroll MOBILE controls */
 @media (max-width: 768px){
   .scroll-master{
-    margin-top: 6rem;
+    margin-top: 4rem;
     width: 100vw;
   }
   .scroll-container {
       overflow-x: hidden;
       overflow-y: auto;
-      height: 80vh;
+      height: 87vh;
       justify-content: center;
       margin-left: 1rem;
     }
