@@ -85,8 +85,9 @@ ABCSyntMono-Regular-Trial. By ABC Dinamo @font-face {
   background-color: lavender;
   color: black;
   transition-duration: 0.4s;
-
 }
+
+/* Navbar MOBILE controls */
 @media (max-width: 768px){
   .navbar a {
     font-size: 12px;
@@ -143,11 +144,12 @@ hr {
   padding-top: 2rem;
 }
 
+/* Project Textbox MOBILE controls */
 @media (max-width: 768px){
   .textbox {
     width: 80vw;
     max-width: 80vw;
-    height: .25%;
+    height: .30%;
     margin-bottom: 2rem;
     padding-bottom: 10rem;
     padding-right: 10rem;
@@ -255,6 +257,7 @@ button:hover {
   height: auto;
 }
 
+/* Index & Project Scroll MOBILE controls */
 @media (max-width: 768px){
   .scroll-master{
     margin-top: 6rem;
@@ -315,6 +318,7 @@ body {
   padding-right: 30%;
 }
 
+/* About me MOBILE page controls */
 @media (max-width: 768px){
   .cover, .content {
     width: 100%;
