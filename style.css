@@ -35,12 +35,12 @@ h2 {
 }
 
 h3 {
-  font-family: "Georgia", serif;
+  font-family: "ABCSyntMono-Regular-Trial", monospace;
   font-size: 16px;
 }
 
 p {
-  font-family: "Georgia", serif;
+  font-family: "ABCSyntMono-Regular-Trial", monospace;
   margin-left: 2rem;
 }
 
@@ -52,6 +52,16 @@ VG5000 by Justin Bihan. Distributed by velvetyne.fr. @font-face {
   font-style: normal;
 }
 
+
+ABCSyntMono-Regular-Trial. By ABC Dinamo @font-face {
+    font-family: "ABCSyntMono-Regular-Trial";
+  src: url("ABCSyntMono-Regular-Trial.woff2") format("woff2"),
+       url("ABCSyntMono-Regular-Trial.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* navbar gotten from https://www.w3schools.com/howto/howto_css_bottom_nav.asp */
 .navbar {
   background-color: white;
@@ -61,7 +71,7 @@ VG5000 by Justin Bihan. Distributed by velvetyne.fr. @font-face {
   width: 150%;
 }
 .navbar a {
-  font-family: "Georgia", serif;
+  font-family: "ABCSyntMono-Regular-Trial", monospace;
   float: left;
   display: block;
   color: black;
