@@ -226,18 +226,21 @@ button:hover {
 }
 
 
-/* Index Image Controls */
+/* Index Image Controls TURN ON LATER
 .homeimg {
   -webkit-filter: grayscale(1) invert(1);
   filter: grayscale(1) invert(1);
 }
 .homeimg:hover {
   filter: none;
-  -webkit-filter: grayscale;
     transition-duration: 0.8s;
-
 }
+*/
 
+.homeimg:hover {
+  filter: grayscale(100%);
+    transition-duration: 0.8s;
+}
 
 /* Index & Project Scroll Controls */
 .scroll-master {
