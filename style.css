@@ -226,6 +226,9 @@ nav ul li {
 .sidebar li {
   list-style: none;
 }
+.sidebar a {
+  font-size: 1.3rem;
+}
 
 .scrollmasterhome {
   width: 100vw;
